@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/logo.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Eclipse Academy</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="images/icon/logo.png" alt="logo"  height="75" width="75"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#portfolio_section">Portfolio</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<!-- <li><a href="#services_section">Services</a></li> -->
+				<li><a href="#contactus_section">Contact</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="login.html">Get Started</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>Online learning is not the next big thing, its the now big thing	</p>
+				<h5>E learning shouldn't be a casual joy ride on a Sunday afternoon with the cruise control engaged.The sole purpose of elearning is to teach </h5>
+				<div class="play">
+					<img src="images/icon/play.png" alt="play"><span><a href="https://www.youtube.com/results?search_query=education" target="_blank">Watch Now</a></span>
+				</div>
+			</div>
+			<div class="svg-image">
+				<img src="images/extra/first.png" alt="svg" height="320" width="350">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<div class="user">
+				<img src="images/creator/aniket.png" alt="Username">
+				<p>aniket0fficial</p>
+			</div>
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#portfolio_section">Portfolio</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+<!--Popular Subjects -->
+	<div class="title">
+		<span>Popular Subjects on Eclipse Academy</span>
+	</div>
+	<br><br>
+	<div class="course">
+		<center><div class="cbox">
+		<div class="det"><a href="subjects/jee.html"><img src="images/courses/book.png">JEE Preparation</a></div>
+		<div class="det"><a href="subjects/gate.html"><img src="images/courses/d1.png">GATE Preparation</a></div>
+		<div class="det"><a href="subjects/jee.html#sample_papers"><img src="images/courses/paper.png">Sample Papers</a></div>
+		<div class="det"><a href="subjects/quiz.html"><img src="images/courses/d1.png">Daily Quiz</a></div>
+		</div></center>
+		<div class="cbox">
+		<div class="det"><a href="subjects/computer_courses.html"><img src="images/courses/computer.png">Computer Courses</a></div>
+		<div class="det"><a href="subjects/computer_courses.html#data"><img src="images/courses/data.png">Data Structures</a></div>
+		<div class="det"><a href="subjects/computer_courses.html#algo"><img src="images/courses/algo.png">Algorithm</a></div>
+	</div>
+
+	
+<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">About Us</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="images/extra/mashes.png">
+				</div>
+				<div class="side-text">
+					<h2>What you think about us ?</h2>
+					<p>Eclipse academy is one of the best online learning platform. Eclipse academy is a web education platform that gives learning opportunities to scholars of all streams and particularly to aspirants who are preparing for competitive exams(preparation for UPSC, Jee, GATE). Eclipse academy lessons are within the type of Live Classes both free . Eclipse academy, is the up growing India's Largest Learning Platform is your companion through your exam preparation journey. On the Eclipse academy Learning web, you'll attend Classes by Top Educators, get your doubts cleared, and test your preparation via Live Test Series, Quizzes, Practice Section and far more. Make your preparation count with Eclipse academy.
+
+					</p>
+				</div>
+		</div>
+	</div>
+
+
+<!-- PORTFOLIO -->
+	<div class="diffSection" id="portfolio_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Portfolio</p></center>
+		<div class="content">
+			<p>
+				“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”
+			</p>
+		</div>
+	</div>
+	<div class="extra">
+		<p>We're increasing this data every 6 months</p>
+		<div class="smbox">
+		<span><center><div class="data">900+</div><div class="det">Enrolled Students</div></center></span>
+		<span><center><div class="data">49+</div><div class="det">Total Courses</div></center></span>
+		<span><center><div class="data">200+</div><div class="det">Placed Students</div></center></span>
+		<span><center><div class="data">40</div><div class="det">Total Projects</div></center></span>
+		</div>
+	</div>
+
+
+<!-- TEAM -->
+	<div class="diffSection" id="team_section">
+		<center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">We're the Creators</p></center>
+		<div class="totalcard">
+			<div class="card">
+				<center><img src="images/creator/aniket.png"></center>
+				<center><div class="card-title">Aniket Das
+				<div id="detail">
+					<p>“ Learn to extend your knowledge ~aniket “</p>
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/aniket0fficial/" target="_blank"><button class="btn-aniket">Connect</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="images/creator/raj.png"></center>
+				<center><div class="card-title">Raj Saha</div>
+				<div id="detail">
+					<p>“ Real education should consist of drawing the goodness and the best out of our own students. What better books can there be than the book of humanity “</p>
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/raj-saha-63374a236/" target="_blank"><button class="btn-raj">Connect
+
+					</button></a>
+				</div>
+				</center>
+			</div>
+		</div>
+	</div>
+
+
+<!-- SERVICES -->
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Our Services</p></center>
+		</div>
+		<a href="subjects/computer_courses.html"><div class="s-card"><img src="images/icon/computer-courses.png"><p>Free Online Computer Courses</p></div></a>
+		<a href="subjects/jee.html"><div class="s-card"><img src="images/icon/brainbooster.png"><p>Building Concepts for Competitive Exams</p></div></a>
+		<a href="#"><div class="s-card"><img src="images/icon/online-tutorials.png"><p>Online Video Lectures</p></div></a>
+		<a href="subjects/jee.html#sample_papers"><div class="s-card"><img src="images/icon/papers.jpg"><p>Sample Papers of Various Competitive Exams</p></div></a>
+		<a href="#"><div class="s-card"><img src="images/icon/p3.png"><p>Performance and Ranking Report</p></div></a>
+		<a href="#contactus_section"><div class="s-card"><img src="images/icon/discussion.png"><p>Discussion with Our Tutors & Mentors</p></div></a>
+		<!-- <a href="subjects/quiz.html"><div class="s-card"><img src="images/icon/q1.png"><p>Daily Brain Teasing Questions to Improve IQ</p></div></a> -->
+		<a href="#contactus_section"><div class="s-card"><img src="images/icon/help.png"><p>24x7 Online Support</p></div></a>
+	</div>
+
+<!-- Reviews by Students -->
+<div id="makeitfull">
+	<a href="#review_section"><img src="images/icon/makeitfull.png"></a>
+</div>
+<div class="review">
+	<div class="diffSection" id="review_section">
+		<center><p style="font-size: 40px; padding: 100px; padding-bottom: 40px; color: #2E3D49;">What the Students Say About Us?</p></center>
+	</div>
+	<div class="rev-container">
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/humanNotExist1.jpg"><p>Sophie Daniel</p>
+				<h6>Java</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					Eclipse Academyis the learning app is a great product. If used with sincerity and dedication , it is a great learning considering the fact that teachers in schools are not at all teaching as per the standards around late 2007. Nowadays people are unnecessarily badmouthing Eclipse. They can't except the fact that their children have to show some initiative from their side as well. Everything can't be spoonfed, as there are limitations to online learning as well. So last but not least, byju is a great product as my cousin has been greatly benefitted from it.
+
+
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/humanNotExist2.jpg"><p>Clayton Clair</p>
+				<h6>C/C++</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					
+				</p>
+			</div>This website is really good for students for learning something new about our subjects. In India, there are lots of students who are not able to learn so this app assists to learn for those students and also make our future. I want to say not in India in the whole world this app is fabulous. It is a great learning website.
+			In this app, there are so many features so that's why student like this app. this app provide lots of teachers and answer with a solution that's why this app is relevant for students.
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/humanNotExist3.jpg"><p>MR.Sumit Roy</p>
+				<h6>JEE</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					If you are searching for the best online studying website then this website is very excellent to use if you are if you want to learn something new online this may help you too much but it is recorded lectures given there if you want new knowledge then you can use this website.
+
+
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/humanNotExist4.jpg"><p>Rylee Phillips</p>
+				<h6>Python</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					If you are searching for the best online studying website then this website is very excellent to use if you are if you want to learn something new online this may help you too much but it is recorded lectures given there if you want new knowledge then you can use this website.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- CONTACT US -->
+	<div class="diffSection" id="contactus_section">
+		<center><p style="font-size: 50px; padding: 100px">Contact Us</p></center>
+		<div class="csec"></div>
+		<div class="back-contact">
+			<div class="cc">
+			<form action="mailto:eclipseacademy2@gmail.com" method="post" enctype="text/plain">
+				<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
+				<center>
+				<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
+				</center>
+				<label>Email <span class="imp">*</span></label><br>
+				<input type="email" name="mail" style="width: 100%" required="required"><br>
+				<label>Message <span class="imp">*</span></label><br>
+				<input type="text" name="message" style="width: 100%" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+			</div>
+		</div>
+	</div>
+
+
+<!-- FEEDBACK -->
+	<div class="title2" id="feedBACK">
+		<span>Give Feedback</span>
+		<div class="shortdesc2">
+			<p>Please share your valuable feedback to us</p>
+		</div>
+	</div>
+
+	<div class="feedbox">
+		<div class="feed">
+			<form action="mailto:learnoveracademy2@gmail.com method="post" enctype="text/plain">
+				<label>Your Name</label><br>
+				<input type="text" name="" class="fname" required="required"><br>
+				<label>Email</label><br>
+				<input type="email" name="mail" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+		</div>
+	</div>
+
+<!-- Sliding Information -->
+	<marquee style="background: linear-gradient(to right,#243838,#00FFFF); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">“Education is the best friend. An educated person is respected everywhere. Education beats the beauty and the youth.”</div></marquee>
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="images/icon/logo.png" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="images/icon\fb.png"></a>
+					<a href="#"><img src="images/icon\insta.png"></a>
+					<a href="#"><img src="images/icon\tt.png"></a>
+					<a href="#"><img src="images/icon\ytube.png"></a>
+					<a href="#"><img src="images/icon\linkedin.png"></a>
+				</div><br><br>
+				<p class="rights-text">Copyright © 2021 Created By Eclipse Academy, All Rights Reserved.</p>
+				<br><p><img src="images/icon/location.png"> Narula Institute Of Technology<br>Agarpara,Kolkata-700118</p><br>
+				<p><img src="images/icon/phone.png"> +9194857482<br><img src="images/icon/mail.png">&nbsp; eclipseacademy2@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">New Updates</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
