@@ -1,5 +1,6 @@
-##LEARNOVER ACADEMY (E-learning Website)
-An educational website for students and programmers  
+## EACLIPSE ACADEMY (E-learning Website)
+An educational website for students and programmers 
+
 
 
 
